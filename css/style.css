@@ -1,0 +1,386 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, rgb(0, 98, 179) , rgb(0, 172, 77));
+}
+
+.brazilone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  background-color: green;
+  border-radius: 25px;
+}
+
+.braziltwo{
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(251, 255, 0);
+  clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+  display: grid;
+  place-items: center;
+}
+
+.brazilthree{
+  width: 120px;
+  height: 120px;
+  background-color: rgb(0, 53, 114);
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.brazilfour{
+  width: 300px;
+  height: 300px;
+  align-content: center;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  transform: rotateX('45');
+}
+
+.banone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  background-color: rgb(0, 85, 0);
+  border-radius: 25px;
+}
+
+.bantwo{
+  width: 180px;
+  height: 180px;
+  background-color: rgb(212, 0, 0);
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.franceone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #afafaf;
+  border-radius: 25px;
+}
+
+.francetwo{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(0, 86, 199);
+  clip-path: polygon(0% 0%, 66% 0%, 66% 100%, 0% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+}
+
+.francethree{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(199, 0, 0);
+  clip-path: polygon(100% 0%, 100% 100%, 35% 100%, 35% 0%);
+  display: flex;
+  place-items: center;
+  justify-content: right;
+  border-radius: 25px;
+}
+
+.belgiumone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  place-items: center;
+  background-color: rgb(255, 251, 0);
+  border-radius: 25px;
+}
+
+.belgiumtwo{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(0, 0, 0);
+  clip-path: polygon(0% 0%, 66% 0%, 66% 100%, 0% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+}
+
+.belgiumthree{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(255, 0, 55);
+  clip-path: polygon(100% 0%, 100% 100%, 35% 100%, 35% 0%);
+  display: flex;
+  place-items: center;
+  justify-content: right;
+  border-radius: 25px;
+}
+
+.italyone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #afafaf;
+  border-radius: 25px;
+}
+
+.italytwo{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(9, 112, 0);
+  clip-path: polygon(0% 0%, 66% 0%, 66% 100%, 0% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+}
+
+.italythree{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(226, 0, 0);
+  clip-path: polygon(100% 0%, 100% 100%, 35% 100%, 35% 0%);
+  display: flex;
+  place-items: center;
+  justify-content: right;
+  border-radius: 25px;
+}
+
+.germanyone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 0, 0);
+  border-radius: 25px;
+}
+
+.germanytwo{
+  width: 450px;
+  height: 250px;
+  background-color: rgb(0, 0, 0);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 33%, 0% 33%);
+  place-items: center;
+  border-radius: 25px;
+}
+
+.germanythree{
+  width: 451px;
+  height: 250px;
+  background-color: rgb(255, 187, 0);
+  clip-path: polygon(0% 70%, 100% 70%, 100% 100%, 0% 100%);
+  place-items: center;
+  border-radius: 25px;
+  margin-top: -55%;
+  margin-right: 0.2%  ;
+}
+
+.englandone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #afafaf;
+  border-radius: 25px;
+}
+
+.englandtwo{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(226, 0, 0);
+  clip-path: polygon(45% 0%, 55% 0%, 55% 100%, 45% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+}
+
+.englandthree{
+  width: 449px;
+  height: 250px;
+  background-color: rgb(226, 0, 0);
+  clip-path: polygon(0% 40%, 0% 57%, 100% 57%, 100% 40%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -55%;
+  margin-right: 0.5%;
+}
+
+.swedenone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  background-color: rgb(0, 101, 168);
+  border: 2px solid #afafaf;
+  border-radius: 25px;
+}
+
+.swedentwo{
+  width: 400px;
+  height: 246px;
+  background-color: rgb(255, 214, 32);
+  clip-path: polygon(30% 0%, 40% 0%, 40% 100%, 30% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+}
+
+.swedenthree{
+  width: 446px;
+  height: 250px;
+  background-color: rgb(255, 214, 32);
+  clip-path: polygon(0% 40%, 0% 57%, 100% 57%, 100% 40%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -55%;
+  margin-right: 0%;
+}
+
+.ukone{
+  width: 450px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  background-color: #012169;
+  border-radius: 25px;
+}
+
+.uktwo{
+  width: 450px;
+  height: 250px;
+  background-color: #ffffff;
+  clip-path: polygon(45% 0%, 55% 0%, 55% 100%, 45% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  z-index: 9000;
+}
+
+.ukthree{
+  width: 450px;
+  height: 250px;
+  background-color: #ffffff;
+  clip-path: polygon(0% 40%, 0% 57%, 100% 57%, 100% 40%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -55%;
+  margin-right: 0.5%;
+  z-index: 9000;
+}
+
+.ukfour{
+  width: 450px;
+  height: 250px;
+  background-color: #C8102E;
+  clip-path: polygon(47% 0%, 53% 0%, 53% 100%, 47% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -56%;
+  z-index: 9999;
+}
+
+.ukfive{
+  width: 450px;
+  height: 250px;
+  background-color: #C8102E;
+  clip-path: polygon(0% 43%, 0% 53%, 100% 53%, 100% 43%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -55.5%;
+  margin-right: 0.5%;
+  z-index: 9999;
+}
+
+.uksix{
+  width: 452px;
+  height: 252px;
+  background-color: #ffffff;
+  clip-path: polygon(110% 0%, 93% 0%, -9% 100%, 8% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -56%;
+  z-index: 5000;
+}
+
+.ukseven{
+  width: 452px;
+  height: 252px;
+  background-color: #ffffff;
+  clip-path: polygon(3% -8%, -1% 10%, 100% 110%, 100% 87%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -56%;
+  z-index: 5000;
+}
+
+.ukeight{
+  width: 452px;
+  height: 252px;
+  background-color: #C8102E;
+  clip-path: polygon(105% 0%, 96% 0%, -5% 100%, 5% 100%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -56%;
+  z-index: 7000;
+}
+
+.uknine{
+  width: 452px;
+  height: 254px;
+  background-color: #C8102E;
+  clip-path: polygon(0% -4%, 0% 7%, 100% 105%, 100% 96%);
+  display: flex;
+  place-items: center;
+  justify-content: left;
+  border-radius: 25px;
+  margin-top: -56.5%;
+  margin-left: 0.5%;
+  z-index: 7000;
+}
